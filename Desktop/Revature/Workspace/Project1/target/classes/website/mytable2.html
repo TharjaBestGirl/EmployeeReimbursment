@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <title>Main Page</title>
+        <link href="styles/style1.css" rel="stylesheet"></link>
+        <script src="scripts/reimburse.js"></script>
+    </head>
+<body onload="getReimbursementsById()">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="mytable2.html" id="Reimburse">Reimbursements <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="myimage2.html">User Info <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <a class="navbar-nav mr-auto">
+            <a class="nav-link" href="login.html" id="Logout">Logout</a>
+        </div>
+      </nav>
+      <table>
+      	<thead>
+      		<tr>
+      			<th>Case ID</th>
+      			<th>Employee ID</th>
+      			<th>Manager ID</th>
+      			<th>Type</th>
+      			<th>Amount</th>
+      			<th>Description</th>
+      			<th>Submit Time</th>
+      			<th>Resolve Time</th>
+      			<th>Resolved</th>
+      			<th>Accepted</th>
+      		</tr>
+      	</thead>
+      	<tbody id="flyingTunaFish">
+      		
+      	</tbody>
+      </table>
+      
+      <form>
+       <div class="form-group">
+         <label for="type">Type</label>
+         <input type="text" id="type" placeholder="Type of Reimbursement">
+       </div>
+       <div class="form-group">
+         <label for="description">Description</label>
+         <input type="text" id="desc" placeholder="Description of Activity">
+       </div>
+       <div class="form-group">
+         <label for="amount">Amount</label>
+         <input type="number" id="amt" placeholder="Amount of Reimbursement">
+       </div>
+       <button type="button" class="btn btn-primary" onclick="addReimbursement()" id="AddReimburse">Add Reimbursement</button>
+       <hr />
+      </form>
+</body>
+</html>
