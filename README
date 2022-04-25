@@ -1,51 +1,45 @@
-A Framework for an employee login function that allows for creation and resolution of Reimbursements.
+# PROJECT NAME
 
-Parameters:
+## Project Description
 
-## Employee
- An employee can login to see their own reimbursements, past and pending
+Here goes your awesome project description!
 
- An employee can submit a reimbursement with an amount and a reason
- 
- Bonus allow for file upload
- 
-## Manager
-  A Manager can view all reimbursements past and pending
-  
-  A Manager can appove or deny any reimbursement
-  
-  Managers can view a 'statistics' page. 
-  
-  That includes information like what employee spends the most money, mean expenditure cost etc...
-  
-## Key Notes
-You do not have to allow for the creation of employees or managers.
+## Technologies Used
 
-You can have these already in the database.
+* Tech 1 - version 1.0
+* Tech 2 - version 2.0
+* Tech 3 - version 3.0
 
-You do not need to have implement security for application. You can assume that a later security team is responsible for making the applicaiton secure.
+## Features
 
-API routes do not need to be protected
+List of features ready and TODOs for future development
+* Awesome feature 1
+* Awesome feature 2
+* Awesome feature 3
 
-Passwords do not have to be encrpted
+To-do list:
+* Wow improvement to be done 1
+* Wow improvement to be done 2
 
-## Technical and testing requirements
-Backend developed in Javalin
+## Getting Started
+   
+(include git clone command)
+(include all environment setup steps)
 
-Backend should be a RESTful web service
+> Be sure to include BOTH Windows and Unix command  
+> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
 
-You may have to a make a non-REST compliant endpoint for login. This is normal.
+- All the `code` required to get started
+- Images of what it should look like
 
-AWS postgres RDS used to persist information
+## Usage
 
-All DAO methods should have a test
+> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
 
-All Service methods with logic should have a test
+## Contributors
 
-use mocking when applicable
+> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
 
-There should be logging in the application
+## License
 
-All user stories and acceptance criteria must be written out
-
-completed E2E tests using gherkin and selnium for all user stories.
+This project uses the following license: [<license_name>](<link>).
