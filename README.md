@@ -1,4 +1,4 @@
-# PROJECT NAME
+# Employee Reimbursement System
 
 ## Project Description
 
@@ -6,9 +6,9 @@ Here goes your awesome project description!
 
 ## Technologies Used
 
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Cucumber - version 1.0
+* Javascript - version 2.0
+* Javalin - version 3.0
 
 ## Features
 
@@ -35,10 +35,6 @@ To-do list:
 ## Usage
 
 > Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
-
-## Contributors
-
-> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
 
 ## License
 
