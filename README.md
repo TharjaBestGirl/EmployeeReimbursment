@@ -49,7 +49,7 @@ We will be using Spring Tool Suite for this guide, but you may be able to perfor
 
 ## Usage
 - After following all of the steps above with getting started with Solana, you should be able to access Solana on your respective localhost by opening `http://localhost:[port]/`with `[port]` representing the port you have assigned. Remember, by default Javalin will be listening on `8080`.
-- Now, you can demostrate every feature listed in [Characteristics](https://github.com/kiieer/ProjectOne#characteristics) using the users you defined in your database set up.
+- Now, you can demostrate every feature listed in [Characteristics](https://github.com/TharjaBestGirl/EmployeeReimbursment/blob/main/README.md#characteristics) using the users you defined in your database set up.
 
 ## License
 This project uses the following license: [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
